@@ -124,6 +124,18 @@ header{
                 height: 100%;
             }
 
+            .nivel3 {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 1fr;
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+                }
+                
+                .nivel3_01 { grid-area: 1 / 1 / 2 / 2; }
+                .nivel3_parrafo { grid-area: 1 / 2 / 2 / 3; }
+                .nivel3_02 { grid-area: 1 / 3 / 2 / 4; }
+
             .nivel4 {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
