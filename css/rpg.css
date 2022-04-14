@@ -70,3 +70,38 @@ header{
         .nivel8 { grid-area: 8 / 1 / 9 / 2; }
         .nivel9 { grid-area: 9 / 1 / 10 / 2; }
         .nivel10 { grid-area: 10 / 1 / 11 / 2; }
+        
+        .nivel1 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .in1 { grid-area: 1 / 1 / 2 / 2; }
+            .ip1 { grid-area: 1 / 2 / 2 / 3; }
+            
+        .in1 img{
+            width: 100%;
+        }
+        .ip1{
+            text-align: center;
+            font-size: 170%;
+        }
+        li{
+            list-style: none;
+        }
+        .nivel2 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .nivel2-01 { grid-area: 1 / 1 / 2 / 2; }
+            .nivel2-02 { grid-area: 2 / 1 / 3 / 2; }
+            .div3 { grid-area: 1 / 2 / 3 / 3; }
+            .nivel2-03 { grid-area: 1 / 3 / 2 / 4; }
+            .nivel2-puerta-a-3 { grid-area: 2 / 3 / 3 / 4; }
