@@ -1,0 +1,126 @@
+body{
+    margin:0%;
+}
+header{
+    border: 4px darkblue solid;
+    height: 104px;
+    background: linear-gradient(90deg, rgba(16,6,133,1) 0%, rgba(24,9,193,1) 50%, rgba(33,14,249,1) 100%);
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .imagen { grid-area: 1 / 1 / 2 / 2; }
+    .nave { grid-area: 1 / 2 / 2 / 3; }
+
+    .nave a{
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+    }
+    .nave a:hover{
+        color: whitesmoke;
+    }
+    .nave span{
+        font-size: 2rem;
+    }
+    .nave span:hover{
+        color: whitesmoke;
+    }
+    .nave{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-right: 2%;
+    }
+    .novalogo{
+        width: 30%;
+        margin-bottom: 0px;
+        float: left;
+    }
+    .imagen span{
+        margin-right: 50px;
+        margin-top: 10%;
+        color: white;
+        font-size: 4rem;
+        font-family: sans-serif ;
+    }
+    .spawncj {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 1 / 2 / 2 / 3; }
+        .div3 { grid-area: 2 / 1 / 3 / 2; }
+        .div4 { grid-area: 2 / 2 / 3 / 3; }
+        .spawncj .p{ 
+            font-size: 3rem ;
+            text-align: center;
+        }
+        .spawncj .p2{
+            font-size: 2rem ;
+            text-align: center;
+        }
+        .spawncj img{
+            width: 96%;
+            margin-left: 2%;
+            margin-top: 10px;
+        }
+        .spawncj div{
+            border: 2px solid black;
+        }
+        .div1{
+            background: linear-gradient(90deg, rgba(217,127,127,1) 0%, rgba(210,51,51,1) 50%, rgba(255,0,0,1) 100%);
+        }
+        .div2{
+            background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(206,210,51,1) 50%, rgba(0,86,255,1) 100%);
+        }
+        .div3{
+            background: linear-gradient(90deg, rgba(35,113,40,1) 0%, rgba(16,152,3,1) 35%, rgba(10,255,0,1) 78%, rgba(132,175,135,1) 100%);
+        }
+        .div4{
+            background: linear-gradient(90deg, rgba(140,184,136,1) 0%, rgba(140,184,136,1) 35%, rgba(168,128,128,1) 78%, rgba(189,104,104,1) 100%);
+        }
+        .spawncj a{
+            text-decoration: none;
+            color: black;
+        }
+        footer{
+            background: linear-gradient(90deg, rgba(16,6,133,1) 0%, rgba(24,9,193,1) 50%, rgba(33,14,249,1) 100%);
+        }
+        footer p{
+            font-size: 3rem;
+            text-align: center;
+        }
+        footer img{
+            width:30%;
+            margin-left:35%
+        }
+        p:hover{
+            color: white;
+        }
+        .nave:hover span{
+            animation-name: upanup;
+            animation-duration: 2s;
+            animation-iteration-count: 5;
+            animation-iteration-count: 5;
+            animation-delay: 1s;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+        }
+        @keyframes upanup{
+            from{
+                top: 0%;
+            }
+            to{
+                top:100%
+            }
+        }

@@ -1,0 +1,137 @@
+body{
+    height: 104px;
+    margin:0%;
+}
+header{
+    border: 4px darkblue solid;
+    height: 104px;
+    background: linear-gradient(90deg, rgba(16,6,133,1) 0%, rgba(24,9,193,1) 50%, rgba(33,14,249,1) 100%);
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .imagen { grid-area: 1 / 1 / 2 / 2; }
+    .nave { grid-area: 1 / 2 / 2 / 3; }
+
+    .nave a{
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+    }
+    .nave a:hover{
+        color: whitesmoke;
+    }
+    .nave span{
+        font-size: 2rem;
+    }
+    .nave span:hover{
+        color: whitesmoke;
+    }
+    .nave{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-right: 2%;
+    }
+    .novalogo{
+        width: 30%;
+        margin-bottom: 0px;
+        float: left;
+    }
+    .imagen span{
+        margin-right: 50px;
+        margin-top: 10%;
+        color: white;
+        font-size: 4rem;
+        font-family: sans-serif ;
+    }
+
+main div{
+    display: inline-block;
+    text-align: center;
+}
+div h2{
+    font-size: 300%;
+}
+div p, li{
+    font-size: 250%;
+    list-style: none;
+}
+div a{
+    font-size: 200%;
+    text-decoration: none;
+    color:black;
+}
+div img{
+    width: 80%;
+    
+}
+.clanes {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(12, 2fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .lux { grid-area: 1 / 1 / 4 / 2; }
+    .mistic { grid-area: 1 / 2 / 4 / 3; }
+    .mzx { grid-area: 4 / 1 / 7 / 2; }
+    .star { grid-area: 4 / 2 / 7 / 3; }
+    .loboss { grid-area: 7 / 1 / 10 / 2; }
+    .tuti { grid-area: 7 / 2 / 10 / 3; }
+    .leg { grid-area: 10 / 1 / 13 / 2; }
+    .am { grid-area: 10 / 2 / 13 / 3; }
+    
+    .clanes div{
+        border: solid black 4px;
+    }
+    
+    .clanes h2{
+        text-decoration: underline;
+    }
+
+    .mistic{
+        background: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(29,29,170,1) 35%, rgba(2,0,36,1) 100%);
+    }
+   .lux img{
+       width: 80%;
+   }
+   .lux{
+    background: linear-gradient(0deg, rgba(255,222,1,1) 0%, rgba(181,159,12,1) 35%, rgba(149,131,10,1) 100%);
+   }
+   .mistic:hover h2{
+       color: rgb(62, 127, 211);
+   }
+   .mistic:hover p{
+       color: white;
+   }
+   .star img{
+       width: 60%;
+       margin-top: 2%;
+   }
+   .star:hover h2{
+       color:gold;
+   }
+   .star{
+    background: linear-gradient(90deg, rgba(9,2,87,1) 0%, rgba(14,3,139,1) 50%, rgba(24,11,172,1) 100%);
+   }
+   .star:hover .estrella{
+       animation-name: estrella;
+       animation-duration: 1s;
+       animation-iteration-count: infinite;
+       animation-direction: normal;
+   }
+   @keyframes estrella{
+       from{
+           rotate: 0;
+       }
+       to{
+           rotate: 360;
+       }
+   }
