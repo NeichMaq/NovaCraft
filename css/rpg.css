@@ -153,7 +153,7 @@ header{
             }
             .nivel3{
                 text-align: center;
-                font-size: 120%;
+                font-size: 110%;
             }
             .nivel4{
                 text-align: center;
@@ -290,6 +290,31 @@ header{
     color: white;
 }
 .nivel6{
-    background: linear-gradient(0deg, rgba(126,237,240,1) 0%), rgba(149,101,3,1) 35%, rgba(134,85,16,1) 100%;
+    background: linear-gradient(0deg, rgba(126,237,240,1) 0%, rgba(149,101,3,1) 35%, rgba(134,85,16,1) 100%);
     }
-
+.nivel5{
+    background: linear-gradient(0deg, rgba(134,85,16,1) 0%, rgba(181,146,4,1) 35%, rgba(255,222,2,1) 100%);
+}
+.nivel4{
+    background: linear-gradient(0deg, rgba(255,222,2,1) 0%, rgba(255,163,2,1) 35%, rgba(255,61,2,1) 100%);
+}
+.nivel3{
+    background: linear-gradient(0deg, rgba(255,61,2,1) 0%, rgba(213,54,6,1) 35%, rgba(180,42,0,1) 100%);
+}
+.nivel2{
+    background: linear-gradient(0deg, rgba(180,42,0,1) 0%, rgba(182,121,103,1) 35%, rgba(138,129,126,1) 100%);
+}
+.nivel1{
+    background: linear-gradient(0deg, rgba(138,129,126,1) 0%, rgba(115,117,201,1) 35%, rgba(0,5,255,1) 100%);
+}
+footer{
+    background: linear-gradient(90deg, rgba(16,6,133,1) 0%, rgba(24,9,193,1) 50%, rgba(33,14,249,1) 100%);
+}
+footer p{
+    font-size: 3rem;
+    text-align: center;
+}
+footer img{
+    width:30%;
+    margin-left:35%;
+}

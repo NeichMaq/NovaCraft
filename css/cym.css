@@ -1,0 +1,90 @@
+body{
+    margin:0%;
+}
+header{
+    border: 4px darkblue solid;
+    height: 104px;
+    background: linear-gradient(90deg, rgba(16,6,133,1) 0%, rgba(24,9,193,1) 50%, rgba(33,14,249,1) 100%);
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .imagen { grid-area: 1 / 1 / 2 / 2; }
+    .nave { grid-area: 1 / 2 / 2 / 3; }
+
+    .nave a{
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+    }
+    .nave a:hover{
+        color: whitesmoke;
+    }
+    .nave span{
+        font-size: 2rem;
+    }
+    .nave span:hover{
+        color: whitesmoke;
+    }
+    .nave{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-right: 2%;
+    }
+    .novalogo{
+        width: 30%;
+        margin-bottom: 0px;
+        float: left;
+    }
+    .imagen span{
+        margin-right: 50px;
+        margin-top: 10%;
+        color: white;
+        font-size: 4rem;
+        font-family: sans-serif ;
+    }
+
+.m {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .imm { grid-area: 1 / 1 / 2 / 2; }
+    .pm { grid-area: 1 / 2 / 2 / 3; }
+
+    .imm img{
+        width: 100%;
+    }
+    .pm{
+        text-align: center;
+        font-size: 240%;
+    }
+    .comercios{
+        background-color: lightgreen;
+    }
+    section{
+        margin: 0%;
+    }
+    .misiones{
+        background-color: rgb(252, 190, 190);
+    }
+    footer{
+        background: linear-gradient(90deg, rgba(16,6,133,1) 0%, rgba(24,9,193,1) 50%, rgba(33,14,249,1) 100%);
+    }
+    footer p{
+        font-size: 3rem;
+        text-align: center;
+    }
+    footer img{
+        width:30%;
+        margin-left:35%
+    }
